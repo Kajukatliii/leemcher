@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  worker:
+    build: Dockerfile
+    environment:
+      LEECH_TIMEOUT:
+      MAGNET_TIMEOUT:
+      PROGRESS_UPDATE_DELAY:
+      ADMIN_CHATS:
+      EVERYONE_CHATS:
+      TESTMODE:
+      BOT_TOKEN:
+      API_HASH:
+      API_ID:
+      
